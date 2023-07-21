@@ -85,27 +85,29 @@
 			<artifactId>hibernate-validator</artifactId>
 			<version>8.0.1.Final</version>
 		</dependency>
-         <dependency>
-            <groupId>org.glassfish.jersey.containers</groupId>
-            <artifactId>jersey-container-servlet</artifactId>
-            <version>3.1.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.glassfish.jersey.inject</groupId>
-            <artifactId>jersey-hk2</artifactId>
-            <version>3.1.2</version>
-        </dependency>
-        
-		<!--Jackson pour la conversion POJO <-> JSON -->
+		
+		<!-- Jersey pour les WebServices JAX-RS -->
 		<dependency>
-    		<groupId>org.glassfish.jersey.media</groupId>
-    		<artifactId>jersey-media-json-jackson</artifactId>
-    		<version>3.1.2</version>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-servlet</artifactId>
+			<version>3.1.2</version>
 		</dependency>
 		<dependency>
-    		<groupId>com.fasterxml.jackson.module</groupId>
-    		<artifactId>jackson-module-jakarta-xmlbind-annotations</artifactId>
-    		<version>2.15.2</version>
+			<groupId>org.glassfish.jersey.inject</groupId>
+			<artifactId>jersey-hk2</artifactId>
+			<version>3.1.2</version>
+		</dependency>
+
+		<!--Jackson pour la conversion POJO <-> JSON -->
+		<dependency>
+			<groupId>org.glassfish.jersey.media</groupId>
+			<artifactId>jersey-media-json-jackson</artifactId>
+			<version>3.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.module</groupId>
+			<artifactId>jackson-module-jakarta-xmlbind-annotations</artifactId>
+			<version>2.15.2</version>
 		</dependency>
 		<!-- Test -->
 		<dependency>
